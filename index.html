@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="btns">
+        <div class="container">
+          <div class="btns_menu">
+          <button class="btn home">home</button>
+          <button class="btn about">about</button>
+          <button class="btn skills">skills</button>
+          <button class="btn works">works</button>
+          <button class="btn content">content</button>
+        </div>
+    </div>
+</div>
+    
+    <section id="home">
+    <div class="wrapper">
+        <h1>home</h1>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ipsum laborum? Necessitatibus 
+            ducimus illo magnam temporibus tempora enim, pariatur ratione placeat aspernatur, eveniet assumenda,
+             tenetur quidem sequi? Accusamus, quidem ullam.</h3>
+    </div>
+</section>
+    <section id="about">
+    <div class="wrapper">
+        <h1>about</h1>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ipsum laborum? Necessitatibus 
+            ducimus illo magnam temporibus tempora enim, pariatur ratione placeat aspernatur, eveniet assumenda,
+             tenetur quidem sequi? Accusamus, quidem ullam.</h3>
+    </div>
+</section>
+    <section id="skills">
+    <div class="wrapper">
+        <h1>skills</h1>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ipsum laborum? Necessitatibus 
+            ducimus illo magnam temporibus tempora enim, pariatur ratione placeat aspernatur, eveniet assumenda,
+             tenetur quidem sequi? Accusamus, quidem ullam.</h3>
+    </div>
+    <section id="works">
+    <div class="wrapper">
+        <h1>works</h1>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ipsum laborum? Necessitatibus 
+            ducimus illo magnam temporibus tempora enim, pariatur ratione placeat aspernatur, eveniet assumenda,
+             tenetur quidem sequi? Accusamus, quidem ullam.</h3>
+    </div>
+</section>
+    <section id="content">
+    <div class="wrapper">
+        <h1>content</h1>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ipsum laborum? Necessitatibus 
+            ducimus illo magnam temporibus tempora enim, pariatur ratione placeat aspernatur, eveniet assumenda,
+             tenetur quidem sequi? Accusamus, quidem ullam.</h3>
+    </div>
+</section>
+<script>
+    const btnHome = document.querySelector('.home');
+    const sectionHome = document.querySelector('#home');
+    btnHome.addEventListener('click',function() {
+        sectionHome.scrollIntoView({behavior:"smooth",block:"center"});
+    });
+    const btnabout = document.querySelector('.about');
+    const sectionabout = document.querySelector('#about');
+    btnabout.addEventListener('click',function() {
+        sectionabout.scrollIntoView({behavior:"smooth",block:"center"});
+    });
+    const btnskills = document.querySelector('.skills');
+    const sectionskills = document.querySelector('#skills');
+    btnskills.addEventListener('click',function() {
+        sectionskills.scrollIntoView({behavior:"smooth",block:"center"});
+    });
+    const btnworks = document.querySelector('.works');
+    const sectionworks = document.querySelector('#works');
+    btnworks.addEventListener('click',function() {
+        sectionworks.scrollIntoView({behavior:"smooth",block:"center"});
+    });
+    const btncontent = document.querySelector('.content');
+    const sectioncontent = document.querySelector('#content');
+    btncontent.addEventListener('click',function() {
+        sectioncontent.scrollIntoView({behavior:"smooth",block:"center"});
+    });
+</script>
+</body>
+</html>
